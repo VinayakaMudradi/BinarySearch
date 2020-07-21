@@ -36,8 +36,8 @@ class BinarySearch{
             condition = false;
             temp = this.arr[0];
             for(int i=1; i<this.arr.length; i++){
-                if(temp>=arr[i]){
-                    temp = arr[i];
+                if(temp>=this.arr[i]){
+                    temp = this.arr[i];
                     condition = true;
                 }
                 else{
